@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diya Inani | BDS Student and Future Dental Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Noise texture overlay -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ─── CURSOR ─── -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav-brand">
+      <span class="brand-mark">DI</span>
+      <span class="brand-title">Diya Inani</span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="#about"      class="nl">About</a></li>
+      <li><a href="#education"  class="nl">Education</a></li>
+      <li><a href="#experience" class="nl">Experience</a></li>
+      <li><a href="#skills"     class="nl">Skills</a></li>
+      <li><a href="#awards"     class="nl">Awards</a></li>
+      <li><a href="#interests"  class="nl">Interests</a></li>
+      <li><a href="#contact"    class="nl">Contact</a></li>
+    </ul>
+    <div class="nav-pill">
+      <span class="pulse"></span>BDS 2024–29
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text" aria-hidden="true">DIYA</div>
+
+    <!-- Floating blobs -->
+    <div class="blob blob-a" aria-hidden="true"></div>
+    <div class="blob blob-b" aria-hidden="true"></div>
+
+    <div class="hero-layout">
+      <!-- Left: Text -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dash"></span>
+          <span>BDS Student · IIM Bangalore · Chandigarh</span>
+        </div>
+        <h1 class="hero-name">
+          <span class="hn-first">Diya</span>
+          <span class="hn-last">Inani</span>
+        </h1>
+        <p class="hero-desc">
+          Future dental professional with a sharp eye for science,
+          a knack for people, and hands-on business experience.
+          <em>Precision in care. Clarity in thought.</em>
+        </p>
+        <div class="hero-chips">
+          <span class="chip">🦷 BDS Student</span>
+          <span class="chip">📊 Sales Intern</span>
+          <span class="chip">💬 Communicator</span>
+          <span class="chip">📍 Chandigarh</span>
+        </div>
+        <div class="hero-cta">
+          <a href="#contact" class="cta-primary">Say Hello ↗</a>
+          <a href="#education" class="cta-ghost">My Journey ↓</a>
+        </div>
+      </div>
+
+      <!-- Right: Photo -->
+      <div class="hero-right">
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <!-- Photo placeholder: replace src with your actual photo -->
+            <img
+              src="diya-photo.jpg"
+              alt="Diya Inani"
+              class="photo-img"
+              onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='flex';"
+            />
+            <div class="photo-fallback" id="photo-fallback" style="display:none;">
+              <span class="fallback-initial">D</span>
+            </div>
+          </div>
+          <div class="photo-tag photo-tag-1">BDS 2024–29</div>
+          <div class="photo-tag photo-tag-2">Chandigarh 📍</div>
+          <div class="photo-corner tl"></div>
+          <div class="photo-corner tr"></div>
+          <div class="photo-corner bl"></div>
+          <div class="photo-corner br"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrolling ticker -->
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <span class="ti">BDS Student</span><span class="ts">✦</span>
+        <span class="ti">Sales and Business</span><span class="ts">✦</span>
+        <span class="ti">Communication</span><span class="ts">✦</span>
+        <span class="ti">Microsoft Office</span><span class="ts">✦</span>
+        <span class="ti">IIM Bangalore</span><span class="ts">✦</span>
+        <span class="ti">Leadership</span><span class="ts">✦</span>
+        <span class="ti">Baking</span><span class="ts">✦</span>
+        <span class="ti">Trading</span><span class="ts">✦</span>
+        <span class="ti">BDS Student</span><span class="ts">✦</span>
+        <span class="ti">Sales and Business</span><span class="ts">✦</span>
+        <span class="ti">Communication</span><span class="ts">✦</span>
+        <span class="ti">Microsoft Office</span><span class="ts">✦</span>
+        <span class="ti">IIM Bangalore</span><span class="ts">✦</span>
+        <span class="ti">Leadership</span><span class="ts">✦</span>
+        <span class="ti">Baking</span><span class="ts">✦</span>
+        <span class="ti">Trading</span><span class="ts">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="sec-label">01 : About Me</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="sec-heading">More than<br><em>just a student.</em></h2>
+          <div class="about-quote-block">
+            <div class="aqb-line"></div>
+            <blockquote>
+              Science meets soul. That's how I approach both dentistry and life.
+            </blockquote>
+          </div>
+        </div>
+        <div class="about-right">
+          <p class="about-body">
+            I'm <strong>Diya Inani</strong>, a second-year <strong>Bachelor of Dental Surgery (BDS)</strong> student on a mission to become a skilled, compassionate dental professional. I believe great dentists are built on two things: deep scientific knowledge and genuine human connection.
+          </p>
+          <p class="about-body">
+            Before stepping into the dental world, I got my first taste of the professional world interning at <strong>Hindustan Marble and Granite</strong>, learning how businesses communicate, negotiate, and grow. That blend of healthcare science and business awareness is what sets me apart.
+          </p>
+          <p class="about-body">
+            I'm a confident communicator who loves meeting people, solving problems, and working in teams. Whether it's a case presentation, a patient conversation, or a sales pitch, I show up prepared and people-first.
+          </p>
+          <div class="about-stats">
+            <div class="astat">
+              <span class="astat-num">93.8<span class="astat-unit">%</span></span>
+              <span class="astat-label">Class X Score</span>
+            </div>
+            <div class="astat">
+              <span class="astat-num">87.8<span class="astat-unit">%</span></span>
+              <span class="astat-label">Class XII Score</span>
+            </div>
+            <div class="astat">
+              <span class="astat-num">2<span class="astat-unit">mo</span></span>
+              <span class="astat-label">Internship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="sec-label">02 : Education</div>
+      <h2 class="sec-heading reveal">Built on<br><em>strong foundations.</em></h2>
+
+      <div class="edu-stack">
+
+        <!-- BDS Primary -->
+        <div class="edu-card edu-card-dual reveal">
+          <div class="edu-card-left">
+            <div class="edu-icon-box">🦷</div>
+            <div class="edu-timeline-line"></div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-card-top">
+              <span class="edu-badge edu-badge-teal">In Progress</span>
+              <span class="edu-year">2024 – 2029</span>
+            </div>
+            <h3 class="edu-title">Bachelor of Dental Surgery (BDS)</h3>
+            <p class="edu-inst">Baba Farid University of Health Sciences · Chandigarh</p>
+            <div class="edu-tags">
+              <span class="etag">Dental Anatomy</span>
+              <span class="etag">Oral Surgery</span>
+              <span class="etag">Patient Care</span>
+              <span class="etag">Dental Pharmacology</span>
+            </div>
+            <div class="edu-progress-wrap">
+              <div class="edu-progress-bar">
+                <div class="edu-progress-fill" style="--p: 40%"></div>
+              </div>
+              <span class="edu-progress-label">Year 2 of 5 · 40% complete</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- IIM Bangalore -->
+        <div class="edu-card edu-card-dual edu-card-iim reveal">
+          <div class="edu-card-left">
+            <div class="edu-icon-box">🏛</div>
+            <div class="edu-timeline-line"></div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-card-top">
+              <span class="edu-badge edu-badge-gold">Upcoming</span>
+              <span class="edu-year">2025 – 2028</span>
+            </div>
+            <h3 class="edu-title">BBA in Digital Business and Entrepreneurship</h3>
+            <p class="edu-inst">Indian Institute of Management (IIM) Bangalore</p>
+            <div class="edu-tags">
+              <span class="etag">Digital Strategy</span>
+              <span class="etag">Entrepreneurship</span>
+              <span class="etag">Business Innovation</span>
+              <span class="etag">Technology Management</span>
+              <span class="etag">Decision Making</span>
+            </div>
+            <div class="edu-progress-wrap">
+              <div class="edu-progress-bar">
+                <div class="edu-progress-fill" style="--p: 5%"></div>
+              </div>
+              <span class="edu-progress-label">Programme begins 2025 · 3-year degree</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Class XII -->
+        <div class="edu-card reveal">
+          <div class="edu-card-left">
+            <div class="edu-icon-box edu-icon-sm">🎓</div>
+            <div class="edu-timeline-line"></div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-card-top">
+              <span class="edu-badge edu-badge-gold">Senior Secondary</span>
+              <span class="edu-year">2023 – 2024</span>
+            </div>
+            <h3 class="edu-title">Class XII: Science</h3>
+            <p class="edu-inst">Paragon Senior Secondary School, Chandigarh</p>
+            <div class="edu-score-row">
+              <div class="edu-score">
+                <span class="score-num">87.8%</span>
+                <span class="score-label">Aggregate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Class X -->
+        <div class="edu-card reveal">
+          <div class="edu-card-left">
+            <div class="edu-icon-box edu-icon-sm">📚</div>
+          </div>
+          <div class="edu-card-body">
+            <div class="edu-card-top">
+              <span class="edu-badge edu-badge-purple">Secondary</span>
+              <span class="edu-year">2021 – 2022</span>
+            </div>
+            <h3 class="edu-title">Class X: CBSE</h3>
+            <p class="edu-inst">Manav Mangal Smart School, Chandigarh</p>
+            <div class="edu-score-row">
+              <div class="edu-score">
+                <span class="score-num">93.8%</span>
+                <span class="score-label">Aggregate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="sec-label">03 : Experience</div>
+      <h2 class="sec-heading reveal">Real world,<br><em>real lessons.</em></h2>
+
+      <div class="exp-wrap">
+        <div class="exp-card reveal">
+          <div class="exp-left">
+            <div class="exp-company-box">
+              <span class="exp-company-abbr">HMG</span>
+            </div>
+            <div class="exp-vline"></div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-top">
+              <div>
+                <h3 class="exp-role">Sales Executive Intern</h3>
+                <p class="exp-company">Hindustan Marble & Granite</p>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-duration-badge">2 Months</span>
+                <span class="exp-period">July – August 2024</span>
+              </div>
+            </div>
+            <div class="exp-points">
+              <div class="exp-point">
+                <span class="ep-bullet">◆</span>
+                <p>Engaged directly with customers to understand requirements and recommend suitable marble and granite products, developing strong consultative selling skills.</p>
+              </div>
+              <div class="exp-point">
+                <span class="ep-bullet">◆</span>
+                <p>Assisted the sales team in generating leads, following up on enquiries, and converting prospects into confirmed orders.</p>
+              </div>
+              <div class="exp-point">
+                <span class="ep-bullet">◆</span>
+                <p>Gained hands-on exposure to inventory management, product catalogues, and B2B client communication processes.</p>
+              </div>
+              <div class="exp-point exp-point-hl">
+                <span class="ep-bullet">◆</span>
+                <p><strong>Developed confidence in face-to-face sales</strong> by understanding customer pain points and articulating product value in a fast-paced showroom environment.</p>
+              </div>
+            </div>
+            <div class="exp-tags">
+              <span class="xtag">Sales</span>
+              <span class="xtag">Client Communication</span>
+              <span class="xtag">Lead Generation</span>
+              <span class="xtag">B2B</span>
+              <span class="xtag">Inventory</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="sec-label">04 : Skills</div>
+      <h2 class="sec-heading reveal">What I<br><em>bring to the table.</em></h2>
+
+      <div class="skills-grid">
+
+        <!-- Software -->
+        <div class="skill-block reveal">
+          <div class="sb-header">
+            <span class="sb-icon">💻</span>
+            <h4 class="sb-title">Software & Tools</h4>
+          </div>
+          <div class="skill-bars">
+            <div class="sbar-item">
+              <div class="sbar-meta">
+                <span>Microsoft Word</span><span class="sbar-pct">90%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="sbar-item">
+              <div class="sbar-meta">
+                <span>Microsoft Excel</span><span class="sbar-pct">80%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="sbar-item">
+              <div class="sbar-meta">
+                <span>Microsoft PowerPoint</span><span class="sbar-pct">85%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" style="--w:85%"></div></div>
+            </div>
+            <div class="sbar-item">
+              <div class="sbar-meta">
+                <span>Google Docs / Slides</span><span class="sbar-pct">88%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" style="--w:88%"></div></div>
+            </div>
+            <div class="sbar-item">
+              <div class="sbar-meta">
+                <span>Canva</span><span class="sbar-pct">82%</span>
+              </div>
+              <div class="sbar-track"><div class="sbar-fill" style="--w:82%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional -->
+        <div class="skill-block reveal">
+          <div class="sb-header">
+            <span class="sb-icon">⚡</span>
+            <h4 class="sb-title">Core Competencies</h4>
+          </div>
+          <div class="comp-grid">
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb fill"></span><span class="cdb fill"></span>
+                </div>
+              </div>
+              <span>Communication</span>
+            </div>
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb fill"></span><span class="cdb"></span>
+                </div>
+              </div>
+              <span>Teamwork & Collaboration</span>
+            </div>
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb fill"></span><span class="cdb"></span>
+                </div>
+              </div>
+              <span>Sales & Negotiation</span>
+            </div>
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb fill"></span><span class="cdb fill"></span>
+                </div>
+              </div>
+              <span>Problem Solving</span>
+            </div>
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb"></span><span class="cdb"></span>
+                </div>
+              </div>
+              <span>Time Management</span>
+            </div>
+            <div class="comp-item">
+              <div class="comp-bar-wrap">
+                <div class="comp-dot-bar">
+                  <span class="cdb fill"></span><span class="cdb fill"></span>
+                  <span class="cdb fill"></span><span class="cdb fill"></span><span class="cdb"></span>
+                </div>
+              </div>
+              <span>Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="skill-block reveal">
+          <div class="sb-header">
+            <span class="sb-icon">🌐</span>
+            <h4 class="sb-title">Languages</h4>
+          </div>
+          <div class="lang-list">
+            <div class="lang-row">
+              <span class="lang-name">Hindi</span>
+              <span class="lang-level">Native</span>
+              <div class="lang-dots">
+                <span class="ld f"></span><span class="ld f"></span><span class="ld f"></span><span class="ld f"></span><span class="ld f"></span>
+              </div>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Fluent</span>
+              <div class="lang-dots">
+                <span class="ld f"></span><span class="ld f"></span><span class="ld f"></span><span class="ld f"></span><span class="ld f"></span>
+              </div>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">French</span>
+              <span class="lang-level">Beginner</span>
+              <div class="lang-dots">
+                <span class="ld f"></span><span class="ld f"></span><span class="ld"></span><span class="ld"></span><span class="ld"></span>
+              </div>
+            </div>
+            <div class="lang-row">
+              <span class="lang-name">Punjabi</span>
+              <span class="lang-level">Conversational</span>
+              <div class="lang-dots">
+                <span class="ld f"></span><span class="ld f"></span><span class="ld f"></span><span class="ld"></span><span class="ld"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Domain -->
+        <div class="skill-block reveal">
+          <div class="sb-header">
+            <span class="sb-icon">🧠</span>
+            <h4 class="sb-title">Domain Knowledge</h4>
+          </div>
+          <div class="domain-tags">
+            <span class="dtag">Oral Hygiene</span>
+            <span class="dtag">Clinical Communication</span>
+            <span class="dtag">Sales Strategy</span>
+            <span class="dtag">Business Development</span>
+            <span class="dtag">Customer Relations</span>
+            <span class="dtag">Research and Analysis</span>
+            <span class="dtag">Data Entry</span>
+            <span class="dtag">Report Writing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ─── AWARDS ─── -->
+  <section class="section awards" id="awards">
+    <div class="container">
+      <div class="sec-label">05 : Awards &amp; Achievements</div>
+      <h2 class="sec-heading reveal">Recognised.<br><em>Always striving.</em></h2>
+      <div class="awards-grid">
+
+        <div class="award-card reveal">
+          <div class="award-icon-wrap">🏆</div>
+          <div class="award-body">
+            <span class="award-year">2019</span>
+            <h4 class="award-title">All Rounder Student Award</h4>
+            <p class="award-desc">Recognised for outstanding performance across academics, extracurricular activities, and overall conduct, recognised as a well-rounded, all-rounder student.</p>
+          </div>
+        </div>
+
+        <div class="award-card reveal">
+          <div class="award-icon-wrap">⭐</div>
+          <div class="award-body">
+            <span class="award-year">2021</span>
+            <h4 class="award-title">Academic Excellence Award</h4>
+            <p class="award-desc">Presented in recognition of exceptional academic achievement, consistent high performance, and dedication to scholastic excellence during the academic year.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── INTERESTS ─── -->
+  <section class="section interests" id="interests">
+    <div class="container">
+      <div class="sec-label">06 : Beyond the Resume</div>
+      <h2 class="sec-heading reveal">What makes<br><em>me, me.</em></h2>
+      <div class="interests-grid">
+
+        <div class="interest-card reveal">
+          <div class="interest-emoji">🎂</div>
+          <h4>Baking</h4>
+          <p>From cookies to cakes, baking is where patience meets creativity. Every recipe is an experiment and every result a small victory. The kitchen is my happy place.</p>
+        </div>
+
+        <div class="interest-card reveal">
+          <div class="interest-emoji">💃</div>
+          <h4>Dancing</h4>
+          <p>Dance is how I express what words can't. Whether it's classical or contemporary, moving to music grounds me, energises me, and keeps me present.</p>
+        </div>
+
+        <div class="interest-card reveal">
+          <div class="interest-emoji">📈</div>
+          <h4>Trading</h4>
+          <p>Fascinated by financial markets and the art of reading trends. Trading teaches discipline, risk management, and the value of staying informed, skills that translate everywhere.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="sec-label">07 : Contact</div>
+      <div class="contact-layout">
+        <div class="contact-left reveal">
+          <h2 class="sec-heading">Let's<br><em>connect.</em></h2>
+          <p class="contact-sub">
+            Whether it's an opportunity, a collaboration, or just a good conversation,
+            I'm always open. Reach out and let's make something happen.
+          </p>
+          <div class="contact-location">📍 Chandigarh, India</div>
+        </div>
+        <div class="contact-right reveal">
+          <a href="mailto:diyainani49@gmail.com" class="contact-card">
+            <span class="cc-icon">✉</span>
+            <div class="cc-body">
+              <span class="cc-label">Email</span>
+              <span class="cc-value">diyainani49@gmail.com</span>
+            </div>
+            <span class="cc-arrow">↗</span>
+          </a>
+          <a href="tel:+917888515452" class="contact-card">
+            <span class="cc-icon">📞</span>
+            <div class="cc-body">
+              <span class="cc-label">Phone</span>
+              <span class="cc-value">+91 78885 15452</span>
+            </div>
+            <span class="cc-arrow">↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/diya-inani-84a6b6314" target="_blank" class="contact-card">
+            <span class="cc-icon">🔗</span>
+            <div class="cc-body">
+              <span class="cc-label">LinkedIn</span>
+              <span class="cc-value">linkedin.com/in/diya-inani-84a6b6314</span>
+            </div>
+            <span class="cc-arrow">↗</span>
+          </a>
+          <div class="contact-card contact-card-static">
+            <span class="cc-icon">🦷</span>
+            <div class="cc-body">
+              <span class="cc-label">Current Study</span>
+              <span class="cc-value">BDS: Bachelor of Dental Surgery · 2024–2029</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <span class="footer-name">Diya Inani</span>
+        <span class="footer-sub">BDS Student · Chandigarh</span>
+      </div>
+      <span class="footer-copy">Crafted with HTML & CSS · 2025</span>
+    </div>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.getElementById('cursor');
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    });
+    document.querySelectorAll('a, button, .contact-card').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('cursor-grow'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('cursor-grow'));
+    });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); } });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+
+    // Sticky nav
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('nav-scrolled', window.scrollY > 40);
+    });
+  </script>
+</body>
+</html>
